@@ -1,0 +1,45 @@
+openapi: 3.0.1
+info:
+  title: Vehicle SDM
+  version: "1.0.0"
+  description: SDM de Vehicle con CameraRGB y GNSS basado en SOSA, usando ObservableProperty
+
+paths: {}
+
+components:
+  schemas:
+    # Plataformas
+    Platform:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Platform.yaml"
+
+    # Sensores
+    Sensor:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Sensor.yaml"
+    CameraRGB:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/CameraRGB.yaml"
+    GNSS:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSS.yaml"
+
+    # Observaciones
+    Observation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Observation.yaml"
+    FrameObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameObservation.yaml"
+    GNSSObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSObservation.yaml"
+
+    # Propiedades observables
+    ObservableProperty:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/ObservableProperty.yaml"
+    FrameObservableProperty:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameObservableProperty.yaml"
+    GNSSObservableProperty:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSObservableProperty.yaml"
+
+    # Resultados
+    Result:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Result.yaml"
+    FrameResult:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameResult.yaml"
+    GNSSResult:
+      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSResult.yaml"
