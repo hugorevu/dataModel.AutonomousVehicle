@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: Vehicle SDM
   version: "1.0.0"
-  description: SDM de Vehicle con CameraRGB y GNSS basado en SOSA, usando ObservableProperty
+  description: Vehicle SDM with CameraRGB and GNSS based on SOSA, using ObservableProperty
 
 paths: {}
 
