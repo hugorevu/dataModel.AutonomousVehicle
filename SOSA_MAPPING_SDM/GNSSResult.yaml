@@ -3,7 +3,6 @@ allOf:
   - type: object
     description: Result of a GNSS observation.
     properties:
-
       type:
         description: NGSI entity type. It must be equal to GNSSResult
         type: string

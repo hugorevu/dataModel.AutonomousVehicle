@@ -1,0 +1,21 @@
+allOf:
+  - $ref: "Result.yaml"
+  - type: object
+    description: Result of a frame capture.
+    properties:
+      type:
+        type: string
+        enum:
+          - FrameResult
+        x-ngsi:
+          type: Property
+
+      value:
+        type: string
+        description: URL or path to the frame.
+        x-ngsi:
+          type: Property
+    required:
+      - id
+      - type
+      - value
