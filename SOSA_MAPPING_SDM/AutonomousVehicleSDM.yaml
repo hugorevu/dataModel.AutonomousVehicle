@@ -1,4 +1,5 @@
 openapi: 3.0.1
+
 info:
   title: Vehicle SDM
   version: "1.0.0"
@@ -7,31 +8,41 @@ info:
 paths: {}
 
 components:
+
   schemas:
-    # Plataformas
+
+
     Platform:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Platform.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/Platform.yaml"
 
-    # Sensores
+    AutonomousVehicle:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/AutonomousVehicle.yaml"
+
     Sensor:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Sensor.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/Sensor.yaml"
+
     CameraRGB:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/CameraRGB.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/CameraRGB.yaml"
+
     GNSS:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSS.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/GNSS.yaml"
 
-    # Observaciones
+
     Observation:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Observation.yaml"
-    FrameObservation:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameObservation.yaml"
-    GNSSObservation:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSObservation.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/Observation.yaml"
 
-    # Resultados
+    FrameObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/FrameObservation.yaml"
+
+    GNSSObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/GNSSObservation.yaml"
+
+
     Result:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/Result.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/Result.yaml"
+
     FrameResult:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameResult.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/FrameResult.yaml"
+
     GNSSResult:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSResult.yaml"
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/JISBD26/SOSA_MAPPING_SDM/GNSSResult.yaml"
