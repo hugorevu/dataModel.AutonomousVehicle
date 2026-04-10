@@ -12,12 +12,6 @@ properties:
     type: string
     x-ngsi:
       type: Property
-  madeObservation:
-    description: Relation between a Sensor and an Observation made by the Sensor.
-    type: string
-    format: uri
-    x-ngsi:
-      type: Relationship
   isHostedBy:
     description: Relation between a Sensor and the Platform that it is hosted by.
     type: string
