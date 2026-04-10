@@ -1,0 +1,5 @@
+allOf:
+  - $ref: "Sensor.yaml"
+  - type: object
+    title: CameraRGB
+    description: Sensor de cámara RGB

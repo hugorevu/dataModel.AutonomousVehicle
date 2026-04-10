@@ -1,0 +1,37 @@
+allOf:
+  - $ref: "Sensor.yaml"
+  - type: object
+    description: RGB camera sensor.
+    properties:
+      type:
+        description: NGSI entity type. It must be equal to `CameraRGB`
+        type: string
+        enum:
+          - CameraRGB
+        x-ngsi:
+          type: Property
+      resolution:
+        description: Image resolution of the RGB camera (width and height).
+        type: object
+        properties:
+          x:
+            type: number
+            description: Horizontal resolution in pixels.
+          y:
+            type: number
+            description: Vertical resolution in pixels.
+        required:
+          - x
+          - y
+        x-ngsi:
+          type: Property
+
+      fov:
+        description: Field of view of the RGB camera in degrees.
+        type: number
+        minimum: 0
+        x-ngsi:
+          type: Property
+    required:
+      - id
+      - type

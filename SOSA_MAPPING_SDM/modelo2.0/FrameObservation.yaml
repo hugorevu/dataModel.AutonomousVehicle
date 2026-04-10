@@ -1,0 +1,14 @@
+allOf:
+- $ref: "Observation.yaml"
+- type: object
+  description: Observation representing an RGB frame capture.
+  properties:
+    type:
+      type: string
+      enum:
+        - FrameObservation
+      x-ngsi:
+        type: Property
+  required:
+    - id
+    - type

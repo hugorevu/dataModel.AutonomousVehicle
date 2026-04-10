@@ -1,0 +1,31 @@
+allOf:
+  - $ref: "ObservableProperty.yaml"
+  - type: object
+    title: GNSSObservableProperty
+    description: Propiedad observable específica para GNSS (ubicación)
+    properties:
+      id:
+        type: string
+        description: Location
+      type:
+        type: string
+        description: Location
+      description:
+        type: string
+        description: Medición de ubicación con latitud, longitud y altitud
+      value:
+        type: object
+        description: Valores medidos por el sensor GNSS
+        properties:
+          latitude:
+            type: number
+            format: float
+            description: Latitud medida por el GNSS
+          longitude:
+            type: number
+            format: float
+            description: Longitud medida por el GNSS
+          altitude:
+            type: number
+            format: float
+            description: Altitud medida por el GNSS
