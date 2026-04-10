@@ -1,0 +1,15 @@
+allOf:
+  - $ref: "Platform.yaml"
+  - type: object
+    description: AutonomousVehicle.
+    properties:
+      type:
+        description: NGSI entity type. It must be equal to `AutonomousVehicle`
+        type: string
+        enum:
+          - AutonomousVehicle
+        x-ngsi:
+          type: Property
+    required:
+      - id
+      - type

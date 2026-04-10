@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: Vehicle SDM
   version: "1.0.0"
-  description: SDM de Vehicle con CameraRGB y GNSS basado en SOSA, usando ObservableProperty
+  description: Autonomous Vehicle SDM with RGB Camera and GNSS based on SOSA.
 
 paths: {}
 
@@ -27,14 +27,6 @@ components:
       $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameObservation.yaml"
     GNSSObservation:
       $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSObservation.yaml"
-
-    # Propiedades observables
-    ObservableProperty:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/ObservableProperty.yaml"
-    FrameObservableProperty:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/FrameObservableProperty.yaml"
-    GNSSObservableProperty:
-      $ref: "https://raw.githubusercontent.com/hugorevu/VehicleSDM/main/modelo2.0/GNSSObservableProperty.yaml"
 
     # Resultados
     Result:

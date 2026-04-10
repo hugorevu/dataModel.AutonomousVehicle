@@ -1,15 +1,13 @@
 {
     "@context": {
         "fiware": "https://uri.fiware.org/ns/data-models#",
+        "AutonomousVehicle": "fiware:AutonomousVehicle",
         "CameraRGB": "fiware:CameraRGB",
-        "FrameObservableProperty": "fiware:FrameObservableProperty",
         "FrameObservation": "fiware:FrameObservation",
         "FrameResult": "fiware:FrameResult",
         "GNSS": "fiware:GNSS",
-        "GNSSObservableProperty": "fiware:GNSSObservableProperty",
         "GNSSObservation": "fiware:GNSSObservation",
         "GNSSResult": "fiware:GNSSResult",
-        "ObservableProperty": "fiware:ObservableProperty",
         "Observation": "fiware:Observation",
         "Platform": "fiware:Platform",
         "Result": "fiware:Result",
@@ -17,7 +15,6 @@
         "hasResult": "fiware:hasResult",
         "hosts": "fiware:hosts",
         "isHostedBy": "fiware:isHostedBy",
-        "madeObservation": "fiware:madeObservation",
-        "observedProperty": "fiware:observedProperty"
+        "madeObservation": "fiware:madeObservation"
     }
 }

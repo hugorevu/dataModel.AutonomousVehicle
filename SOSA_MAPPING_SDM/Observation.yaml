@@ -2,8 +2,7 @@ type: object
 title: Observation
 description: Act of carrying out an (Observation) Procedure to estimate or calculate
   a value of a property of a FeatureOfInterest. Links to a Sensor to describe what
-  made the Observation and how; links to an ObservableProperty to describe what
-  the result is an estimate of, and to a FeatureOfInterest to detail what that property
+  made the Observation and how; links to a FeatureOfInterest to detail what that property
   was associated with.
 properties:
   resultTime:
@@ -21,12 +20,6 @@ properties:
       - Observation
     x-ngsi:
       type: Property
-  observedProperty:
-    description: Relation linking an Observation to the property that was observed.
-    type: string
-    format: uri
-    x-ngsi:
-      type: Relationship
   hasResult:
     description: Relation linking an Observation and a Result.
     type: string
