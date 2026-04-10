@@ -11,26 +11,26 @@ allOf:
         x-ngsi:
           type: Property
       resolution:
-      description: Resolution of the RGB camera (width and height).
-      type: object
-      properties:
-        x:
-          type: number
-          description: Horizontal resolution in pixels.
-        y:
-          type: number
-          description: Vertical resolution in pixels.
-      required:
-        - x
-        - y
-      x-ngsi:
-        type: Property
-    fov:
-      description: Field of view of the RGB camera in degrees.
-      type: number
-      minimum: 0
-      x-ngsi:
-        type: Property
+        description: Resolution of the RGB camera (width and height).
+        type: object
+        properties:
+          x:
+            type: number
+            description: Horizontal resolution in pixels.
+          y:
+            type: number
+            description: Vertical resolution in pixels.
+        required:
+          - x
+          - y
+        x-ngsi:
+          type: Property
+      fov:
+        description: Field of view of the RGB camera in degrees.
+        type: number
+        minimum: 0
+        x-ngsi:
+          type: Property
     required:
       - id
       - type
