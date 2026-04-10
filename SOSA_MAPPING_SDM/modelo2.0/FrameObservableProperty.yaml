@@ -1,0 +1,21 @@
+allOf:
+  - $ref: "ObservableProperty.yaml"
+  - type: object
+    description: ObservableProperty representing a camera RGB frame.
+    properties:
+      type:
+        description: NGSI entity type. Must be `FrameObservableProperty`
+        type: string
+        enum:
+          - FrameObservableProperty
+        x-ngsi:
+          type: Property
+
+      description:
+        type: string
+        description: Captura de un frame de cámara RGB
+        x-ngsi:
+          type: Property
+    required:
+      - id
+      - type

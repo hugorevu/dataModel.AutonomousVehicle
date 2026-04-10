@@ -1,0 +1,11 @@
+allOf:
+  - $ref: "Observation.yaml"
+  - type: object
+    title: FrameObservation
+    description: Observación específica de CameraRGB para frames
+    properties:
+      observedProperty:
+        $ref: "FrameObservableProperty.yaml"
+      hasResult:
+        type: string
+        description: Valor del frame

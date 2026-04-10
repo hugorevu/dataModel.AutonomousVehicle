@@ -1,0 +1,5 @@
+allOf:
+  - $ref: "Sensor.yaml"
+  - type: object
+    title: GNSS
+    description: Sensor GNSS para ubicación

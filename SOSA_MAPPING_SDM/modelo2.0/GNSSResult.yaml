@@ -1,0 +1,24 @@
+allOf:
+  - $ref: "Result.yaml"
+  - type: object
+    description: Result of a GNSS observation.
+    properties:
+
+      type:
+        description: NGSI entity type. It must be equal to GNSSResult
+        type: string
+        enum:
+          - GNSSResult
+        x-ngsi:
+          type: Property
+
+      location:
+        description: Geographic position measured by the GNSS sensor (GeoJSON Point)
+        type: object
+        x-ngsi:
+          type: GeoProperty
+
+    required:
+      - id
+      - type
+      - location

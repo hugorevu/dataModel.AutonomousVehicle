@@ -1,0 +1,14 @@
+allOf:
+  - $ref: "Observation.yaml"
+  - type: object
+    description: GNSS observation for location.
+    properties:
+      type:
+        type: string
+        enum:
+          - GNSSObservation
+        x-ngsi:
+          type: Property
+    required:
+      - id
+      - type
