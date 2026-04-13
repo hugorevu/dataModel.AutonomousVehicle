@@ -26,6 +26,12 @@ properties:
     format: uri
     x-ngsi:
       type: Relationship
+  madeBySensor:
+    description: Relation between an Observation and the Sensor that made it.
+    type: string
+    format: uri
+    x-ngsi:
+      type: Relationship
 required:
 - id
 - type
