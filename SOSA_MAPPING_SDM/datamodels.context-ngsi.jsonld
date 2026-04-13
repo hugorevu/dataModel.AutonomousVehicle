@@ -15,6 +15,6 @@
         "hasResult": "fiware:hasResult",
         "hosts": "fiware:hosts",
         "isHostedBy": "fiware:isHostedBy",
-        "madeObservation": "fiware:madeObservation"
+        "madeBySensor": "fiware:madeBySensor"
     }
 }
