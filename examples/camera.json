@@ -18,6 +18,6 @@
   },
   "@context": [
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-    "https://cdn.jsdelivr.net/gh/hugorevu/VehicleSDM@a52d2971efca32d3425b7dbad92d8ffac39b39af/modelo2.0/datamodels.context-ngsi.jsonld"
+    "https://cdn.jsdelivr.net/gh/hugorevu/dataModel.AutonomousVehicle@sosa/jisbd-2026/SOSA_MAPPING_SDM/datamodels.context-ngsi.jsonld"
   ]
 }
