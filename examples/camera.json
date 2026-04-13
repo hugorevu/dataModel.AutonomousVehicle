@@ -1,0 +1,23 @@
+{
+  "id": "urn:ngsi-ld:CameraRGB:001",
+  "type": "CameraRGB",
+  "isHostedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Vehicle001"
+  },
+  "resolution": {
+    "type": "Property",
+    "value": {
+      "x": 1920,
+      "y": 1080
+    }
+  },
+  "fov": {
+    "type": "Property",
+    "value": 90
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "https://cdn.jsdelivr.net/gh/hugorevu/VehicleSDM@a52d2971efca32d3425b7dbad92d8ffac39b39af/modelo2.0/datamodels.context-ngsi.jsonld"
+  ]
+}

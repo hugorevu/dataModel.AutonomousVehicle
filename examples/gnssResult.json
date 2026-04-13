@@ -1,0 +1,15 @@
+{
+  "id": "urn:ngsi-ld:GNSSResult:001",
+  "type": "GNSSResult",
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [-3.80746, 43.46231, 0.98]
+    }
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "https://cdn.jsdelivr.net/gh/hugorevu/VehicleSDM@a52d2971efca32d3425b7dbad92d8ffac39b39af/modelo2.0/datamodels.context-ngsi.jsonld"
+  ]
+}

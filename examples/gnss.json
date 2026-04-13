@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:GNSS:001",
+  "type": "GNSS",
+  "isHostedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Vehicle001"
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "https://cdn.jsdelivr.net/gh/hugorevu/VehicleSDM@a52d2971efca32d3425b7dbad92d8ffac39b39af/modelo2.0/datamodels.context-ngsi.jsonld"
+  ]
+}
