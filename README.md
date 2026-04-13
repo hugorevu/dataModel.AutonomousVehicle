@@ -16,12 +16,12 @@ The results derived from those observations
 
 The model is organized around the following main entities:
 
-Platform: Represents the autonomous vehicle
-AutonomousVehicle: Specific autonomous vehicle instance
-Sensor: Generic abstraction of onboard sensors
-CameraRGB / GNSS: Specific sensor implementations
-Observation: Captures sensing events
-Result: Represents the output of observations
+-Platform: Represents the autonomous vehicle
+-AutonomousVehicle: Specific autonomous vehicle instance
+-Sensor: Generic abstraction of onboard sensors
+-CameraRGB / GNSS: Specific sensor implementations
+-Observation: Captures sensing events
+-Result: Represents the output of observations
 
 📂 Examples
 
@@ -31,9 +31,10 @@ You can find them in the examples/ folder.
 
 Available examples include:
 
-CameraRGB.json: RGB camera entity with resolution and field of view
-GNSS.json: GNSS sensor entity
-Observation.json: Example of a sensor observation
-Result.json: Result associated with an observation
+-CameraRGB.json: RGB camera entity with resolution and field of view
+-GNSS.json: GNSS sensor entity
+-Observation.json: Example of a sensor observation
+-Result.json: Result associated with an observation
+-AutonomousVehicle: Autonomous Vehicle entity
 
 These examples can be used directly with FIWARE Context Brokers such as Stellio, Scorpio or Orion-LD.
