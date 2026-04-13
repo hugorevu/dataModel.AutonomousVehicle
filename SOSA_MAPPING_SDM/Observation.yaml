@@ -5,7 +5,7 @@ description: Act of carrying out an (Observation) Procedure to estimate or calcu
   made the Observation and how; links to a FeatureOfInterest to detail what that property
   was associated with.
 properties:
-  resultTime:
+  dateObserved:
     description: The result time is the instant of time when the Observation, Actuation
       or Sampling activity was completed.
     format: date-time
