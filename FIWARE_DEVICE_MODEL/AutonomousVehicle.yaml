@@ -1,37 +1,37 @@
-AutonomousVehicle:
-  description: AutonomousVehicle entity
-  properties:
-    id:    
-      anyOf:    
-        - description: Identifier format of any NGSI entity    
-          maxLength: 256    
-          minLength: 1    
-          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        - description: Identifier format of any NGSI entity    
-          format: uri    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      description: Unique identifier of the entity    
+type: object
+description: AutonomousVehicle entity
+properties:
+id:    
+  anyOf:    
+    - description: Identifier format of any NGSI entity    
+      maxLength: 256    
+      minLength: 1    
+      pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
+      type: string    
       x-ngsi:    
-        type: Property  
-    type:
-      description: NGSI entity type. It must be AutonomousVehicle
-      type: string
-      enum:
-        - AutonomousVehicle
-      x-ngsi:
-        type: Property
-    saeLevel:
-      description: SAE automation level (0-5)
-      type: number
-      minimum: 0
-      maximum: 5
-      x-ngsi:
-        type: Property
-  required:
-    - id
-    - type
+        type: Property    
+    - description: Identifier format of any NGSI entity    
+      format: uri    
+      type: string    
+      x-ngsi:    
+        type: Property    
+  description: Unique identifier of the entity    
+  x-ngsi:    
+    type: Property  
+type:
+  description: NGSI entity type. It must be AutonomousVehicle
+  type: string
+  enum:
+    - AutonomousVehicle
+  x-ngsi:
+    type: Property
+saeLevel:
+  description: SAE automation level (0-5)
+  type: number
+  minimum: 0
+  maximum: 5
+  x-ngsi:
+    type: Property
+required:
+- id
+- type
