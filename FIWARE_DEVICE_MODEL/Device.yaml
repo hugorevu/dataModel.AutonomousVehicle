@@ -1,4 +1,5 @@
 type: object
+title: Device
 description: 'An apparatus (hardware + software + firmware) intended to accomplish a particular task (sensing the environment, actuating, etc.).'    
 properties:    
   address:    

@@ -1,4 +1,5 @@
 type: object
+title: AutonomousVehicle
 description: AutonomousVehicle entity
 properties:
   type:
