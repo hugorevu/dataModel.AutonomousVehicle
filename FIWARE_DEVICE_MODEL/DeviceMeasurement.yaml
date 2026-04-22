@@ -1,4 +1,3 @@
-type: object
 title: DeviceMeasurement
 description: Description of a generic measurement entity coming from a device or other data source.      
 properties:      

@@ -1,4 +1,3 @@
-type: object
 title: DeviceModel
 description: 'This entity captures the static properties of a Device. '      
 properties:      
