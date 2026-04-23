@@ -1,0 +1,28 @@
+{
+  "id": "urn:ngsi-ld:DeviceModel:CameraModelX",
+  "type": "DeviceModel",
+  "category": {
+    "type": "Property",
+    "value": ["sensor"]
+  },
+  "controlledProperty": {
+    "type": "Property",
+    "value": ["image"]
+  },
+  "manufacturerName": {
+    "type": "Property",
+    "value": "Bosch"
+  },
+  "brandName": {
+    "type": "Property",
+    "value": "Bosch"
+  },
+  "modelName": {
+    "type": "Property",
+    "value": "X1000"
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "http://localhost:3000/datamodels.context.jsonld"
+  ]
+}

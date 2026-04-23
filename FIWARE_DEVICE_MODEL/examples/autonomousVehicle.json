@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:AutonomousVehicle:001",
+  "type": "AutonomousVehicle",
+  "saeLevel": {
+    "type": "Property",
+    "value": 4
+  },
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "http://localhost:3000/datamodels.context.jsonld"
+  ]
+}
