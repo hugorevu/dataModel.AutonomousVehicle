@@ -1,25 +1,29 @@
 {
-  "id": "urn:ngsi-ld:DeviceMeasurementCamera:001",
-  "type": "DeviceMeasurement",
+  "id": "urn:ngsi-ld:Device:GNSS001",
+  "type": "Device",
   "controlledProperty": {
     "type": "Property",
-    "value": "image"
+    "value": ["location"]
   },
-  "textValue": {
+  "batteryLevel": {  
+    "type": "Property",  
+    "value": 0.75  
+  },
+  "dateCreated": {
     "type": "Property",
-    "value": "http://example.org/frame001.jpg"
+    "value": "2026-01-01T00:00:00Z"
   },
-  "refDevice": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Device:Camera001"
+  "deviceCategory": {
+    "type": "Property",
+    "value": ["sensor"]
   },
   "refVehicle": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:AutonomousVehicle:001"
   },
-  "dateObserved": {
-    "type": "Property",
-    "value": "2026-04-23T10:00:00Z"
+  "refDeviceModel": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:DeviceModel:GNSSModelX"
   },
   "@context": [
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",

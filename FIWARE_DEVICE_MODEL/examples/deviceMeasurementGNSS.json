@@ -1,17 +1,20 @@
 {
-  "id": "urn:ngsi-ld:DeviceMeasurementCamera:001",
+  "id": "urn:ngsi-ld:DeviceMeasurementGNSS:001",
   "type": "DeviceMeasurement",
   "controlledProperty": {
     "type": "Property",
-    "value": "image"
+    "value": "location"
   },
-  "textValue": {
-    "type": "Property",
-    "value": "http://example.org/frame001.jpg"
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [-3.7038, 40.4168]
+    }
   },
   "refDevice": {
     "type": "Relationship",
-    "object": "urn:ngsi-ld:Device:Camera001"
+    "object": "urn:ngsi-ld:Device:GNSS001"
   },
   "refVehicle": {
     "type": "Relationship",

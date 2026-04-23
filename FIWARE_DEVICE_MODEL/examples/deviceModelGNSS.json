@@ -1,5 +1,5 @@
 {
-  "id": "urn:ngsi-ld:DeviceModel:CameraModelX",
+  "id": "urn:ngsi-ld:DeviceModel:GNSSModelX",
   "type": "DeviceModel",
   "category": {
     "type": "Property",
@@ -7,7 +7,7 @@
   },
   "controlledProperty": {
     "type": "Property",
-    "value": ["image"]
+    "value": ["location"]
   },
   "manufacturerName": {
     "type": "Property",
