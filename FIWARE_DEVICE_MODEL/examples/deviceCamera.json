@@ -26,7 +26,5 @@
     "object": "urn:ngsi-ld:DeviceModel:CameraModelX"
   },
   "@context": [
-    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-    "https://cdn.jsdelivr.net/gh/hugorevu/dataModel.AutonomousVehicle@fiware-device/FIWARE_DEVICE_MODEL/examples/datamodels.context-ngsi.jsonld"
-  ]
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"  ]
 }

@@ -1,8 +1,5 @@
 {
     "@context": {
-        "type": "@type",
-        "id": "@id",
-        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "fiware": "https://uri.fiware.org/ns/data-models#",
         "schema": "https://schema.org/",
         "AutonomousVehicle": "fiware:AutonomousVehicle",
@@ -33,7 +30,6 @@
         "dateModified": "fiware:dateModified",
         "dateObserved": "fiware:dateObserved",
         "depth": "fiware:depth",
-        "description": "fiware:description",
         "deviceCategory": "fiware:deviceCategory",
         "deviceClass": "fiware:deviceClass",
         "deviceState": "fiware:deviceState",
@@ -49,14 +45,12 @@
         "hardwareVersion": "fiware:hardwareVersion",
         "image": "fiware:image",
         "ipAddress": "fiware:ipAddress",
-        "location": "fiware:location",
         "macAddress": "fiware:macAddress",
         "manufacturerName": "fiware:manufacturerName",
         "mcc": "fiware:mcc",
         "measurementType": "fiware:measurementType",
         "mnc": "fiware:mnc",
         "modelName": "fiware:modelName",
-        "name": "fiware:name",
         "numValue": "fiware:numValue",
         "osVersion": "fiware:osVersion",
         "outlier": "fiware:outlier",
@@ -79,7 +73,6 @@
         "supportedProtocol": "fiware:supportedProtocol",
         "supportedUnits": "fiware:supportedUnits",
         "textValue": "fiware:textValue",
-        "unit": "fiware:unit",
-        "value": "fiware:value"
+        "unit": "fiware:unit"
     }
 }
