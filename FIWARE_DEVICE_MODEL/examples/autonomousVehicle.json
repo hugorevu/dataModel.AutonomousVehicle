@@ -7,6 +7,6 @@
   },
   "@context": [
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-    "http://localhost:3000/datamodels.context.jsonld"
+    "https://cdn.jsdelivr.net/gh/hugorevu/dataModel.AutonomousVehicle@fiware-device/FIWARE_DEVICE_MODEL/examples/datamodels.context-ngsi.jsonld"
   ]
 }
